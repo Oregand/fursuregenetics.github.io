@@ -12,6 +12,8 @@ export default function StackProgress() {
         <div className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
+            <p>Learn more about your weird little furball.
+            Strengthen your bond with the dog DNA test trusted by millions of dog owners.</p>
             {techStack.experience.map((exp, i) => {
               const progressStyle = {
                 width: exp.progressPercentage

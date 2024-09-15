@@ -5,7 +5,7 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
   greeting,
-  workExperiences,
+  products,
   skillsSection,
   openSource,
   blogSection,
@@ -16,7 +16,7 @@ import {
 
 function Header() {
   const {isDark} = useContext(StyleContext);
-  const viewExperience = workExperiences.display;
+  const viewProducts = products.display;
   const viewOpenSource = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
@@ -43,12 +43,12 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#services">Services</a>
             </li>
           )}
-          {viewExperience && (
+          {viewProducts && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#product">Shop</a>
             </li>
           )}
           {viewOpenSource && (
@@ -58,7 +58,7 @@ function Header() {
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a href="#us">Why Us</a>
             </li>
           )}
           {viewBlog && (

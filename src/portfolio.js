@@ -20,43 +20,39 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "FurSure Genetics",
+  title: "Hi all, We're FurSure",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Canine DNA Testing company 🐾 providing insights into breed identification, health screening, and genetic traits for Irish dogs."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://fursuregenetics.ie/about-us", // Link to about us page
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
+  github: "https://github.com/fursuregenetics",
+  linkedin: "https://www.linkedin.com/company/fursuregenetics/",
+  gmail: "woof@fursuregenetics.ie",
+  facebook: "https://www.facebook.com/fursuregenetics",
+  instagram: "https://www.instagram.com/fursuregenetics",
+  twitter: "https://twitter.com/fursuregenetics",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
-// Skills Section
-
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What We Do",
+  subTitle: "CUTTING-EDGE CANINE DNA TESTING FOR IRISH DOGS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Comprehensive breed identification for over 350 dog breeds"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Genetic health screening for 200+ canine conditions"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Trait analysis for physical and behavioral characteristics"
     )
   ],
 
@@ -65,56 +61,20 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "DNA",
+      fontAwesomeClassname: "fas fa-dna"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "dog",
+      fontAwesomeClassname: "fas fa-dog"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "microscope",
+      fontAwesomeClassname: "fas fa-microscope"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "heartbeat",
+      fontAwesomeClassname: "fas fa-heartbeat"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -123,28 +83,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -153,50 +92,46 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "DNA Sequencing", //Insert stack or technology you have experience in
+      progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Genetic Analysis",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Breed Identification",
+      progressPercentage: "98%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
+// Products section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+const products = {
+  display: true, //Set it to true to show products Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Breed + Health Dog DNA Tests",
+      company: "Health",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "$159",
+      desc: "Breed ID, health and trait insights, and the world’s first canine relative finder — the best dog DNA tests are right here.",
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Breed ID Dog DNA Test",
+      company: "Breed",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "$109",
+      desc: "Decode your dog’s breed mix with breed breakdown, ancestry, and relative finder."
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Dog Age Test",
+      company: "Age",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "$129",
+      desc: "It’s time to celebrate your dog’s birthday! The Embark Age Test estimates your dog’s calendar age and birthday by measuring their DNA methylation."
     }
   ]
 };
@@ -206,35 +141,35 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Customer Stories",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Best gift ever!",
+      projectDesc: "This year, we decided that in lieu of toys and treats, the best Christmas gift for our dog would be an FurSure Genetics DNA test.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Shop Breed + Health Test ",
+          url: "#"
         }
-        //  you can add extra buttons here.
+        //  you can add extra buttons here. 
       ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "Now I know my dog!",
+      projectDesc: "I received my DNA test as a birthday gift!",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Shop Bundles",
+          url: "#"
         }
       ]
     }
@@ -246,15 +181,15 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Why FurSure Genetics 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "We’ll give you more info about your dog than anyone else. FurSure customers get data they need to improve their dogs’ health and wellbeing.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "You collect a sample",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Whatever you’re testing for, we’ll give you everything you need to collect a sample with confidence. All FurSure tests include a pre-paid mailer for Irish customers.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -273,9 +208,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "We crunch the data",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Our scientists are the smartest people around. They apply rigorous analysis to each and every sample, so you can be sure you’re getting the most precise results possible.",
       image: require("./assets/images/googleAssistantLogo.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -287,8 +222,8 @@ const achievementSection = {
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      title: "Results you can use",
+      subtitle: "When you test with Embark, you get more than fun facts. You’ll learn how to improve your dog’s wellbeing starting today, from preventative care to diet and lifestyle changes.",
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
@@ -308,20 +243,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "With Love for Dogs, We Love to Write and Educate Pet Owners About Canine Genetics.",
+  displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://fursuregenetics.ie/blog/understanding-irish-dog-breeds",
+      title: "Understanding Irish Dog Breeds: A Genetic Perspective",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Explore the genetic makeup of popular Irish dog breeds like the Irish Setter, Kerry Blue Terrier, and Irish Wolfhound."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://fursuregenetics.ie/blog/genetic-health-risks-in-irish-dogs",
+      title: "Common Genetic Health Risks in Irish Dogs",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Learn about the genetic health conditions that are prevalent in dogs commonly found in Ireland and how DNA testing can help."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -332,15 +267,15 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "WE LOVE TO SHARE OUR KNOWLEDGE ABOUT CANINE GENETICS"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Understanding Your Dog's DNA",
+      subtitle: "Webinar for Irish Kennel Club members",
+      slides_url: "https://fursuregenetics.ie/webinars/understanding-dog-dna",
+      event_url: "https://www.ikc.ie/events/fursure-genetics-webinar"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -350,13 +285,21 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "DISCUSSING THE LATEST IN CANINE GENETICS AND DNA TESTING",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/fursuregenetics/embed/episodes/The-Importance-of-Genetic-Testing-for-Irish-Dogs-e1mqp3n"
   ],
   display: true // Set false to hide this section, defaults to true
+};
+
+const contactInfo = {
+  title: emoji("Contact Us ☎️"),
+  subtitle:
+    "Have questions about our DNA testing services? Our team is here to help!",
+  number: "+353 1 234 5678",
+  email_address: "woof@fursuregenetics.ie"
 };
 
 // Resume Section
@@ -365,15 +308,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
-};
-
-const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Twitter Section
@@ -393,7 +328,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  products,
   openSource,
   bigProjects,
   achievementSection,
