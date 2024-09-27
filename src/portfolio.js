@@ -151,7 +151,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/dog6.jpg"),
       projectName: "Best gift ever!",
       projectDesc: "This year, we decided that in lieu of toys and treats, the best Christmas gift for our dog would be an FurSure Genetics DNA test.",
       footerLink: [
@@ -163,7 +163,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/dog5.jpg"),
       projectName: "Now I know my dog!",
       projectDesc: "I received my DNA test as a birthday gift!",
       footerLink: [
@@ -190,33 +190,29 @@ const achievementSection = {
       title: "You collect a sample",
       subtitle:
         "Whatever you’re testing for, we’ll give you everything you need to collect a sample with confidence. All FurSure tests include a pre-paid mailer for Irish customers.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      image: require("./assets/images/dog1.avif"),
+      imageAlt: "Unleashing More for Your Dog's Health",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Breed ID Test",
+          url: "https://www.youtube.com/watch?v=Rj0-vSfE7Vk"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "Breed + Health Test",
+          url: "https://www.youtube.com/watch?v=Rj0-vSfE7Vk"
         },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
       ]
     },
     {
       title: "We crunch the data",
       subtitle:
         "Our scientists are the smartest people around. They apply rigorous analysis to each and every sample, so you can be sure you’re getting the most precise results possible.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      image: require("./assets/images/dog2.jpg"),
+      imageAlt: "Purebred + Health Test",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Purebred + Health Test",
+          url: "https://www.youtube.com/watch?v=Rj0-vSfE7Vk"
         }
       ]
     },
@@ -224,13 +220,12 @@ const achievementSection = {
     {
       title: "Results you can use",
       subtitle: "When you test with Embark, you get more than fun facts. You’ll learn how to improve your dog’s wellbeing starting today, from preventative care to diet and lifestyle changes.",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      image: require("./assets/images/dog4.jpg"),
+      imageAlt: "Age Test",
       footerLink: [
-        {name: "Certification", url: ""},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Age Test",
+          url: "https://www.youtube.com/watch?v=Rj0-vSfE7Vk"
         }
       ]
     }
